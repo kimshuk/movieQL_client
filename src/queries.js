@@ -5,6 +5,7 @@ const HOME_PAGE = gql`
     movies(limit: 50, rating: 8) {
       id
       title
+      genres
       rating
     }
   }
